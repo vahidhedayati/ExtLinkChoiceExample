@@ -1,4 +1,3 @@
-
 <!DOCTYPE html> <html> <head> 
 <meta name="layout" content="main"> <g:set var="entityName" 
 value="${message(code: 'gtest.label', default: 'gtest')}" /> 
@@ -20,7 +19,7 @@ value="${message(code: 'gtest.label', default: 'gtest')}" />
 
 <extlink:returnLink link="http://www.grails.org" description="Grails Site"  />
 
-<extlink:returnLink link="http://www.zoopla.com" description="Grails Site" />
+<extlink:returnLink link="http://www.grails.info" description="Grails INFO Site" />
 <extlink:modalFooter/>
 
 	
