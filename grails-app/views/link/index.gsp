@@ -7,24 +7,21 @@ value="${message(code: 'gtest.label', default: 'gtest')}" />
 <body>
 
 <extlink:userPref update="linkPanel"/>
-
 <extlink:userPref update="linkPanel" updateShow="linkChooser"/>
 
 <a href="#" id="linkChooser">Link Choice Chooser</a>
-<div id=linkPanel name=linkPanel >
 
-</div>
+<div id=linkPanel name=linkPanel ></div>
 
 <br/>
 
 <extlink:returnLink link="http://www.grails.org" description="Grails Site"  />
 
 <extlink:returnLink link="http://www.grails.info" description="Grails INFO Site" />
-<extlink:modalFooter/>
 
-	
-	<div id=linkBottom></div>
-	
+<extlink:returnLink link="http://www.github.com" description="GITHUB" />
+
+<extlink:modalFooter/>
 
 </body>
 
