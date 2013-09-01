@@ -7,15 +7,15 @@ To run this project you will need grails 2.2.3:
 
 from command line: (Linux)
 
-1. Export JAVA_HOME
+Export JAVA_HOME
 
     export JAVA_HOME=/usr/lib/jvm/java-6-openjdk-i386/jre/   
     
-    The java home will probably be different find out where your JRE folder is and do as above..
+The java home will probably be different find out where your JRE folder is and do as above..
     
     
     
-2. Unsure but I have multiple grails installed on my desktop so to ensure it is the right version run:
+Unsure but I have multiple grails installed on my desktop so to ensure it is the right version run:
  
     alias grails=/home/user/Downloads/springsource/grails-2.2.3/bin/grails
 
