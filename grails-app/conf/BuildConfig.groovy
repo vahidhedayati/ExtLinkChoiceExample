@@ -59,9 +59,6 @@ grails.project.dependency.resolution = {
         runtime ":database-migration:1.3.2"
 
         compile ':cache:1.0.1'
-	compile ":extlinkchoice:0.2"	
-		
-		//compile ':modalbox:0.4'
+		compile ":extlinkchoice:0.2"
     }
 }
-//grails.plugin.location.gutils = "../ExtLinkChoice"

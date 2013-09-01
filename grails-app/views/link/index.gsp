@@ -1,6 +1,6 @@
-<!DOCTYPE html> <html> <head> 
-<meta name="layout" content="main"> <g:set var="entityName" 
-value="${message(code: 'gtest.label', default: 'gtest')}" /> 
+<!DOCTYPE html> <html> <head>
+<meta name="layout" content="main"> <g:set var="entityName"
+value="${message(code: 'gtest.label', default: 'gtest')}" />
 <title><g:message code="default.create.label" args="[entityName]" /></title> </head>
 
 
@@ -15,7 +15,7 @@ value="${message(code: 'gtest.label', default: 'gtest')}" />
 
 <br/>
 
-<extlink:returnLink link="http://www.grails.org" description="Grails Site"  />
+<extlink:returnLink link="http://www.grails.org" description="Grails Site" />
 
 <extlink:returnLink link="http://www.grails.info" description="Grails INFO Site" />
 
