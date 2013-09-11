@@ -15,11 +15,11 @@ value="${message(code: 'gtest.label', default: 'gtest')}" />
 
 <br/>
 
-<extlink:returnLink link="http://www.grails.org" description="Grails Site" />
+<extlink:returnLink link="http://www.grails.org" description="Grails Site" choice="${session.linkchoice }"/>
 
-<extlink:returnLink link="http://www.grails.info" description="Grails INFO Site" />
+<extlink:returnLink link="http://www.grails.info" description="Grails INFO Site" choice="${session.linkchoice }" />
 
-<extlink:returnLink link="http://www.github.com" description="GITHUB" />
+<extlink:returnLink link="http://www.github.com" description="GITHUB" choice="${session.linkchoice }"/>
 
 <extlink:modalFooter/>
 
