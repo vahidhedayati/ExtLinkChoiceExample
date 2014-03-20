@@ -15,29 +15,44 @@ value="${message(code: 'gtest.label', default: 'gtest')}" />
 <br/>
 
 <extlink:returnLink 
-	link="http://www.grails.org" 
-	description="Main Grails Site" 
+	link="http://www.example.com" 
+	description="Example Site" 
 	choice="${session.linkchoice}" 
-	title="Grails.ORG" 
+	title="example Site" 
 	id="MyModal1"
 	modalLabel="MyModalLabel1"
 />
 
 <extlink:returnLink 
-	link="http://www.grails.info" 
-	description="Grails information Site" 
+	link="http://www.arpa.net/" 
+	description="arpa net" 
 	choice="${session.linkchoice }" 
-	title="Grails.INFO" 
+	title="arpa.net" 
 	id="MyModal2" 
 	modalLabel="MyModalLabel2"
 />
 
+
+<p> These are non working links but testing resolving technique which should resolve actual hostname to be different to actaul set link value </p>
+
 <extlink:returnLink 
-link="http://www.happy.com" 
+link="http://mail.google.com/" 
+description="Happy google" 
+choice="${session.linkchoice }" 
+title="happy google resolve test" 
+resolveit="1"
+id="MyModal33"
+modalLabel="MyModalLabel33"
+/>
+
+<p>This non working example includes all the extra values that can be set</p>
+
+<extlink:returnLink 
+link="http://news.google.com/" 
 description="Happy"
 resolveit="1" 
 choice="${session.linkchoice }" 
-title="Walmart happy.com being resolved" 
+title="happy news google" 
 
 modalLabel="MyModalLabel3"
 
