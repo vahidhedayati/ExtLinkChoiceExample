@@ -34,11 +34,34 @@ value="${message(code: 'gtest.label', default: 'gtest')}" />
 
 <extlink:returnLink 
 link="http://www.happy.com" 
-description="Happy.com" 
+description="Happy"
+resolveit="1" 
 choice="${session.linkchoice }" 
-title="Walmart happy.com" 
-id="MyModal3"
+title="Walmart happy.com being resolved" 
+
 modalLabel="MyModalLabel3"
+
+calctype="*"         
+height="0.6"         
+width="0.6"         
+bodyheight="0.4"    
+bodywidth='98%'     
+overflow="hidden"   
+position="fixed"    
+top="0"    
+margintop='10em' 
+marginright='auto' 
+left='auto'        
+right='auto'       
+
+
+iframescrolling='auto' 
+iframetransparency='true' 
+iframezoom='1'  
+iframewidth='100%' 
+iframeheight='100%'  
+iframemargin='0'     
+iframepadding='0'    
 />
 
 
